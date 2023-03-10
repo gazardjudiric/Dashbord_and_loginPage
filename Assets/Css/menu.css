@@ -1,0 +1,46 @@
+.menu {
+    background-color: #4e73df;
+    width: 250px;
+    height: 100vh;
+    padding: 0 10px;
+}
+
+.sb-admin {
+   text-transform: uppercase;
+   padding: 20px 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 0 15px;
+   color: white;
+
+}
+.sb-admin h1 {
+    font-size: 3vh;
+}
+.dash-title {
+    font-size: 15px;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+}
+.dash-title ,.sub-menu2{
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    }
+.dash-title:hover ,.sub-menu2:hover{
+color: white;
+}
+
+.sub-menu1 h2{
+    font-size: 15px;
+    margin: 15px 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+.sub-menu2 {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    margin: 35px 0;
+}

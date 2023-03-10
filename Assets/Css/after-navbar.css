@@ -1,0 +1,108 @@
+.after-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+.after-navbar {
+    font-size: 20px;
+    color: var(--color2);
+}
+.after-navbar-boite {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.boite-1 {
+    border-left: 5px solid var(--color1);
+}
+.boite-2 {
+    border-left: 5px solid #44d29f;
+}
+.boite-3 {
+    border-left: 5px solid #5cc6d5;
+    
+}
+.boite-4 {
+    border-left: 5px solid #f6c23e;
+}
+.boites div {
+    display: flex;
+    flex-direction: column;
+    gap: 2px 0;
+    /* background-color: yellow; */
+}
+.boite-1 b:first-child {
+    color: var(--color1);
+}
+.boite-2 b:first-child {
+    color: #44d29f;
+}
+.boite-3 b:first-child {
+    color: #5cc6d5;
+}
+.boite-4 b:first-child {
+    color: #f6c23e;
+}
+.boite-3-text {
+    display: flex;
+}
+.homeboite-3-progressbar {
+    border-radius: 4px;
+    width: 50%;
+    height: 10px;
+    background-color: lightgrey;
+}
+.boite-3-progresbar {
+    border-radius: 4px;
+    background-color: var(--color3);
+    width: 50%;
+    height: 10px;
+}
+.home-graphe-cercle {
+    display: flex;
+    justify-content: space-between;
+}
+.home-graphe {
+    width: 80%; 
+}
+.hearder-gc {
+    color: var(--color1);
+    padding: 15px 10px;
+    background-color: var(--color4);
+    font-size: 25px;
+    border-radius: 5px 5px 0 0;
+}
+.home-card {
+    margin: 30px 18px;
+    border-radius: 5px;
+    background-color: white;
+    
+}
+.cercle-body img {
+    margin: 40px 0;
+}
+.graphe-body img {
+    width: 90%;
+    object-fit: contain;
+}
+.home-progressbar-image {
+    display: flex;
+    justify-content: space-between;   
+}
+.projects-progressbar {
+    border-radius: 4px;
+    width: 50%;
+    height: 10px;
+    background-color: lightgrey;
+}
+.bar1-progresbar {
+    border-radius: 4px;
+    background-color: var(--color3);
+    width: 50%;
+    height: 10px;
+}
+.niveau-progessbar {
+    float: right;
+}
+
+
